@@ -33,6 +33,9 @@
     <ClCompile Include="util\Source\shaderUtil.cpp">
       <Filter>Utility Files\Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="util\Source\imageUtil.cpp">
+      <Filter>Utility Files\Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
@@ -42,6 +45,9 @@
       <Filter>Utility Files\Header Files</Filter>
     </ClInclude>
     <ClInclude Include="util\Headers\shaderUtil.hpp">
+      <Filter>Utility Files\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="util\Headers\imageUtil.hpp">
       <Filter>Utility Files\Header Files</Filter>
     </ClInclude>
   </ItemGroup>
