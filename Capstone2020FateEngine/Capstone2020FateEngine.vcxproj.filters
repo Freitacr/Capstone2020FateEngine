@@ -30,12 +30,18 @@
     <ClCompile Include="util\Source\glfwUtil.cpp">
       <Filter>Utility Files\Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="util\Source\shaderUtil.cpp">
+      <Filter>Utility Files\Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="util\Headers\glfwUtil.hpp">
+      <Filter>Utility Files\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="util\Headers\shaderUtil.hpp">
       <Filter>Utility Files\Header Files</Filter>
     </ClInclude>
   </ItemGroup>

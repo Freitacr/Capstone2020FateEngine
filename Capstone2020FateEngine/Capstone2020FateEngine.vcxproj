@@ -154,12 +154,14 @@
   <ItemGroup>
     <ClCompile Include="Capstone2020FateEngine.cpp" />
     <ClCompile Include="util\Source\glfwUtil.cpp" />
+    <ClCompile Include="util\Source\shaderUtil.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="util\Headers\glfwUtil.hpp" />
+    <ClInclude Include="util\Headers\shaderUtil.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
