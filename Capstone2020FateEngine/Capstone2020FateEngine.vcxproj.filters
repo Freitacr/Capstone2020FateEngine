@@ -22,6 +22,18 @@
     <Filter Include="Utility Files\Header Files">
       <UniqueIdentifier>{12dbf2c1-8959-4aa2-b468-9a1cc091edc9}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Rendering">
+      <UniqueIdentifier>{65ae357c-6aef-4665-b586-d0adafa17eac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Rendering\Base">
+      <UniqueIdentifier>{5c36aca0-3727-43c7-b123-36ddb6aafa76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Rendering\Base\Source">
+      <UniqueIdentifier>{d7452a1a-21c0-4cea-9c85-d5451e711270}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Rendering\Base\Headers">
+      <UniqueIdentifier>{aa53dd49-d8de-4d6d-ab10-2b2752cddf0c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Capstone2020FateEngine.cpp">
@@ -36,6 +48,9 @@
     <ClCompile Include="util\Source\imageUtil.cpp">
       <Filter>Utility Files\Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="render\base\source\baseRender.cpp">
+      <Filter>Rendering\Base\Source</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
@@ -49,6 +64,9 @@
     </ClInclude>
     <ClInclude Include="util\Headers\imageUtil.hpp">
       <Filter>Utility Files\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="render\base\header\baseRender.hpp">
+      <Filter>Rendering\Base\Headers</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
