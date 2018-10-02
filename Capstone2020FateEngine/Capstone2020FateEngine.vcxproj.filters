@@ -34,6 +34,15 @@
     <Filter Include="Rendering\Base\Headers">
       <UniqueIdentifier>{aa53dd49-d8de-4d6d-ab10-2b2752cddf0c}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Rendering\Shapes">
+      <UniqueIdentifier>{08caecb1-aea0-4406-8243-b6178aa75507}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Rendering\Shapes\Headers">
+      <UniqueIdentifier>{c2bafa35-04dd-48d2-93bd-a6c0fa004ce2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Rendering\Shapes\Source">
+      <UniqueIdentifier>{d0b53c37-c7a0-43eb-99e6-755ee5e06887}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Capstone2020FateEngine.cpp">
@@ -51,6 +60,9 @@
     <ClCompile Include="render\base\source\baseRender.cpp">
       <Filter>Rendering\Base\Source</Filter>
     </ClCompile>
+    <ClCompile Include="render\shapes\source\quad.cpp">
+      <Filter>Rendering\Shapes\Source</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
@@ -67,6 +79,9 @@
     </ClInclude>
     <ClInclude Include="render\base\header\baseRender.hpp">
       <Filter>Rendering\Base\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="render\shapes\header\quad.hpp">
+      <Filter>Rendering\Shapes\Headers</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

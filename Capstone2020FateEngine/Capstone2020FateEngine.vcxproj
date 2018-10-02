@@ -155,6 +155,7 @@
   <ItemGroup>
     <ClCompile Include="Capstone2020FateEngine.cpp" />
     <ClCompile Include="render\base\source\baseRender.cpp" />
+    <ClCompile Include="render\shapes\source\quad.cpp" />
     <ClCompile Include="util\Source\glfwUtil.cpp" />
     <ClCompile Include="util\Source\imageUtil.cpp" />
     <ClCompile Include="util\Source\shaderUtil.cpp" />
@@ -164,6 +165,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="render\base\header\baseRender.hpp" />
+    <ClInclude Include="render\shapes\header\quad.hpp" />
     <ClInclude Include="util\Headers\glfwUtil.hpp" />
     <ClInclude Include="util\Headers\imageUtil.hpp" />
     <ClInclude Include="util\Headers\shaderUtil.hpp" />
